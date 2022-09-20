@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compiler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <div>
+            <h2>Type Your Code</h2>
+        </div>
+        <select name="lang-id" id="lang-id">
+            <option value="Python">Python</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="C">C</option>
+            <option value="C++">C++</option>
+            <option value="Java">Java</option>
+        </select>
+    </header>
+    <section id="code-wrapper">
+        <textarea id="sidebar" readonly>1</textarea>
+        <textarea id="textarea" wrap="off" placeholder="#Write your code here"></textarea>
+    </section>
+    <section id="output">
+        <div id="console">
+            OUTPUT:
+        </div>
+    </section>
+    <section id="compile-wrapper">
+        <button id="compile">Compile</button>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
